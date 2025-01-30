@@ -39,8 +39,8 @@ const Login: React.FC = () => {
   };
 
   return (
-    <div>
-      <h2> Iniciar Sesion</h2>
+    <div className='login'>
+      <h2 id='iniciar'> Iniciar Sesion</h2>
       {error && <p className="error">{error}</p>}  {/* Mostrar error si existe */}
       <form onSubmit={handleSubmit}>
         <div>
